@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Float Layout</title>
+	<link rel="stylesheet" href="./normalize.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<!-- 1 Left/1 Right -->
+	<div class="container first">
+		<div class="block">float: left</div>
+		<div class="block">float: right</div>
+	</div>
+	<!-- 1 Left/3 Right -->
+	<div class="container second">
+		<div class="block">float: left</div>
+		<div class="block">float: right</div>
+		<div class="block">float: right</div>
+		<div class="block">float: right</div>
+	</div>
+	<!-- 2 Left/2 Right -->
+	<div class="container third">
+		<div class="block left">float: left</div>
+		<div class="block left">float: left</div>
+		<div class="block right">float: right</div>
+		<div class="block right">float: right</div>
+	</div>
+	<!-- All right/Tall obtained to rightest -->
+	<div class="container fourth">
+		<div>
+			<div class="block">float: right</div>
+			<div class="block">float: right</div>
+		</div>
+		<div class="block main">float: right<br>obtained to rightest &lt;div&gt;</div>
+	</div>
+	<!-- All center/Tall obtained to rightest -->
+	<div class="container fifth">
+		<div class="inner">
+			<div class="couple">
+				<div class="block">float: right</div>
+				<div class="block">float: right</div>
+			</div>
+			<div class="block main">
+				float: left<br>obtained to rightest &lt;div&gt;
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

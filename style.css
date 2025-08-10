@@ -1,0 +1,69 @@
+body {
+	background: linear-gradient(90deg, #f5f7fa 0%, #c3cfe2 100%);
+	font: normal 500 24px/1.5 "Roboto", sans-serif;
+}
+
+.container {
+	background: linear-gradient(145deg, #667eea 0%, #764ba2 100%);
+	width: auto;
+	margin: 20px;
+	border-radius: 20px;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	overflow: hidden;
+}
+
+.block {
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	border-radius: 15px;
+	background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	text-align: center;
+	align-content: center;
+}
+
+.main {
+	height: 210px;
+}
+
+.first :first-child {
+	float: left;
+}
+
+.first :last-child {
+	float: right;
+}
+
+.second > div {
+	float: right;
+}
+
+.second :first-child {
+	float: left;
+}
+
+.third > .left {
+	float: left;
+}
+
+.third > .right {
+	float: right;
+}
+
+.fourth > div {
+	float: right;
+}
+
+.inner {
+	max-width: fit-content;
+	margin: 0 auto;
+}
+
+.inner > .main {
+	float: left;
+}
+
+.inner > .couple {
+	float: right;
+}
